@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "scripts": {
+        "both": "concurrently \"cd back-end && nodemon .\" \"cd front-end && npm run dev\""
+    },
+    "dependencies": {
+        "concurrently": "^7.4.0"
+    }
+}
